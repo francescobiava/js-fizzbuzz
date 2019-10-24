@@ -22,5 +22,6 @@ for (i = 1; i <= 100; i++) {
   } else {
     output = i;
   }
-  console.log(output);
+  // console.log(output);
+  document.getElementById('js-fizzbuzz').innerHTML += ('<li>' + output + '</li>')
 }
