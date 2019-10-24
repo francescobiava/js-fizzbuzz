@@ -23,5 +23,5 @@ for (i = 1; i <= 100; i++) {
     output = i;
   }
   // console.log(output);
-  document.getElementById('js-fizzbuzz').innerHTML += ('<li>' + output + '</li>')
+  document.getElementById('js-fizzbuzz').innerHTML += ('<li>' + output + '</li>');
 }
